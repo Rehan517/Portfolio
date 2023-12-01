@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        instagram: "#E4405F",
+        linkedin: "#0A66C2",
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -16,5 +20,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: "class",
 }
 export default config
