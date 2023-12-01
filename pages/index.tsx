@@ -41,8 +41,12 @@ export default function Home() {
       </section>
 
       <section className='grid grid-cols-1 lg:grid-cols-2 gap-4 my-4' id='projects'>
-        <ProjectPreview imageUrl='/apple.png' name='Apple Redesign' description='Redesigned the Apple website'/>
-        <ProjectPreview />
+        <a href="https://apple-redesign-git-main-rehan517.vercel.app/">
+        <ProjectPreview imageUrl='/apple.png' name='Apple Redesign' description='Redesigned the Apple website' />
+        </a>
+        <a href="https://rehan-internship.vercel.app/">
+        <ProjectPreview imageUrl='/ultra.png' name='Ultraverse' description='nft marketplace clone'/>
+        </a>
         <ProjectPreview />
         <ProjectPreview />
       </section>
