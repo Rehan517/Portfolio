@@ -19,7 +19,7 @@ function ProjectPreview({
 
 }: Props) {
     return (
-        <motion.div className={`h-[30rem] rounded-3xl overflow-hidden ${dark ? "dark" : ""}`}
+        <motion.div className={`h-[30rem] rounded-3xl overflow-hidden ${dark ? "dark" : ""} shadow-xl`}
             style={{ background: `${bgColor}` }}
             initial = "initial"
             whileInView="animate"

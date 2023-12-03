@@ -57,7 +57,7 @@ export default function Home() {
           <p className='flex-1'>Feel free to reach out for collaborations or just a friendly hello.</p>
 
           <div className='flex flex-row items-center gap-4 justify-self-end'>
-            <button className='py-3 px-12 font-medium w-60 lg:w-auto bg-black text-white rounded-3xl transition hover:opacity-75'> Contact me</button>
+            <button className='py-3 px-8 lg:px-12 md:px-12 font-medium w-60 lg:w-auto bg-black text-white rounded-3xl transition hover:opacity-75'> Contact me</button>
             <div className='flex items-center gap-3 lg:gap-4 md:gap-4'>
               <SocialButton bgColor='instagram'>
                 <Instagram className="h-5 w-5" />
