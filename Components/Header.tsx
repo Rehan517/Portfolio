@@ -11,7 +11,7 @@ function Header() {
                 <div className='flex gap-12 text-md text-zinc-400'>
                     <a href="" className='text-black'>Home</a>
                     <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
+                    {/* <a href="#contact">Contact</a> */}
                 </div>
             
         </header>
