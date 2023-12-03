@@ -20,8 +20,8 @@ export default function Home() {
       <Header />
 
       <section className='grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 mb-4'>
-        <div className="h-[30rem] flex flex-col gap-16 bg-gradient-to-br from-neutral-50 to-slate-900 rounded-3xl p-10">
-          <h1 className='text-5xl text-semibold '>Hello, I'm Rehan, a frontend engineer</h1>
+        <div className="h-[30rem] flex flex-col gap-10 lg:gap-16 bg-gradient-to-br from-neutral-50 to-slate-900 rounded-3xl p-10">
+          <h1 className='text-3xl lg:text-5xl md:text-5xl text-semibold '>Hello, I'm Rehan, a frontend engineer</h1>
           <p className='flex-1'>I care a lot about using design for positive impact, and enjoy creating user-centric, delightful, and human experiences.</p>
 
           <div className='flex flex-col lg:flex-row items-center gap-4 justify-self-end'>
@@ -53,12 +53,12 @@ export default function Home() {
 
       <section className='grid grid-cols-1 my-4' id='contact'>
         <div className="h-[20rem] flex flex-col gap-10 bg-gradient-to-br from-neutral-50 to-slate-900 rounded-3xl p-10">
-          <h1 className='text-5xl text-semibold '>Want to work together?</h1>
+          <h1 className='text-3xl lg:text-5xl md:text-5xl text-semibold '>Want to work together?</h1>
           <p className='flex-1'>Feel free to reach out for collaborations or just a friendly hello.</p>
 
           <div className='flex flex-row items-center gap-4 justify-self-end'>
             <button className='py-3 px-12 font-medium w-60 lg:w-auto bg-black text-white rounded-3xl transition hover:opacity-75'> Contact me</button>
-            <div className='flex items-center gap-4'>
+            <div className='flex items-center gap-3 lg:gap-4 md:gap-4'>
               <SocialButton bgColor='instagram'>
                 <Instagram className="h-5 w-5" />
               </SocialButton>
