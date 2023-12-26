@@ -51,7 +51,7 @@ export default function Home() {
           <ProjectPreview imageUrl='/clothing.png' name='Ecommerce' description='Online clothing brand' dark />
         </a>
         <a href="https://library-react-rehan.vercel.app/" target='_blank'>
-          <ProjectPreview imageUrl='/library.svg' name='Library' description='Book store' dark />
+          <ProjectPreview imageUrl='/library.png' name='Library' description='Book store'  />
         </a>
       </section>
 
