@@ -24,12 +24,12 @@ function ProjectPreview({
             initial = "initial"
             whileInView="animate"
             variants={PreviewAnimation}>
-            <div className='h-full w-full px-10 py-6 duration-[500ms] transition-all ease-in-out hover:scale-105 bg-cover bg-no-repeat bg-center'
+            <div className='h-full w-full px-10 py-6 duration-[500ms] transition-all ease-in-out hover:scale-105 bg-cover bg-no-repeat bg-center '
                 style={{ backgroundImage: `url(${imageUrl})` }}>
                 <div className='flex justify-between'>
                     <div>
                         <h2 className='font-medium text-lg dark:text-white'>{name}</h2>
-                        <p className='text-sm text-zinc-500 dark:text-zinc-300'>{description}</p>
+                        <p className='text-sm text-zinc-500 dark:text-zinc-100'>{description}</p>
                     </div>
                     <div className='h-12 w-12 bg-white rounded-full flex justify-center items-center cursor-pointer'>
                         <Arrow className="h-6 w-6" />

@@ -20,7 +20,7 @@ export default function Home() {
       <Header />
 
       <section className='grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 mb-4'>
-        <div className="h-[30rem] flex flex-col gap-10 lg:gap-16 bg-gradient-to-br from-neutral-50 to-slate-900 rounded-3xl p-10">
+        <div className="h-[30rem] flex flex-col gap-10 lg:gap-16 bg-gradient-to-br from-white via-neutral-300 to-stone-500 rounded-3xl p-10">
           <h1 className='text-3xl lg:text-5xl md:text-5xl text-semibold '>Hello, I'm Rehan, a frontend engineer</h1>
           <p className='flex-1'>I care a lot about using design for positive impact, and enjoy creating user-centric, delightful, and human experiences.</p>
 
@@ -37,7 +37,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="h-[30rem] rounded-3xl p-8 bg-[url('/IMG_8071.JPG')] bg-cover bg-center" />
+        <div className="h-[30rem] rounded-3xl p-8 bg-[url('/Photo.jpeg')] bg-cover bg-center" />
       </section>
 
       <section className='grid grid-cols-1 lg:grid-cols-2 gap-4 my-4' id='projects'>
@@ -47,12 +47,14 @@ export default function Home() {
         <a href="https://rehan-internship.vercel.app/">
         <ProjectPreview imageUrl='/ultra.png' name='Ultraverse' description='nft marketplace clone'/>
         </a>
-        <ProjectPreview />
-        <ProjectPreview />
+        <a href="https://clothing-brand-next.vercel.app/">
+        <ProjectPreview imageUrl='/clothing.png' name='Ecommerce' description='Online clothing brand' dark/>
+        </a>
+        <ProjectPreview imageUrl='/library.svg' name='Library' description='Book store' dark/>
       </section>
 
       <section className='grid grid-cols-1 my-4' id='contact'>
-        <div className="h-[20rem] flex flex-col gap-10 bg-gradient-to-br from-neutral-50 to-slate-900 rounded-3xl p-10">
+        <div className="h-[20rem] flex flex-col gap-10 bg-gradient-to-br from-white via-neutral-300 to-stone-500 rounded-3xl p-10">
           <h1 className='text-3xl lg:text-5xl md:text-5xl text-semibold '>Want to work together?</h1>
           <p className='flex-1'>Feel free to reach out for collaborations or just a friendly hello.</p>
 
