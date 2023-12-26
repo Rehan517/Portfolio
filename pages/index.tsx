@@ -41,16 +41,18 @@ export default function Home() {
       </section>
 
       <section className='grid grid-cols-1 lg:grid-cols-2 gap-4 my-4' id='projects'>
-        <a href="https://apple-redesign-git-main-rehan517.vercel.app/">
-        <ProjectPreview imageUrl='/apple.png' name='Apple Redesign' description='Redesigned the Apple website' />
+        <a href="https://apple-redesign-git-main-rehan517.vercel.app/" target='_blank'>
+          <ProjectPreview imageUrl='/apple.png' name='Apple Redesign' description='Redesigned the Apple website' />
         </a>
-        <a href="https://rehan-internship.vercel.app/">
-        <ProjectPreview imageUrl='/ultra.png' name='Ultraverse' description='nft marketplace clone'/>
+        <a href="https://rehan-internship.vercel.app/" target='_blank'>
+          <ProjectPreview imageUrl='/ultra.png' name='Ultraverse' description='nft marketplace clone' />
         </a>
-        <a href="https://clothing-brand-next.vercel.app/">
-        <ProjectPreview imageUrl='/clothing.png' name='Ecommerce' description='Online clothing brand' dark/>
+        <a href="https://clothing-brand-next.vercel.app/" target='_blank'>
+          <ProjectPreview imageUrl='/clothing.png' name='Ecommerce' description='Online clothing brand' dark />
         </a>
-        <ProjectPreview imageUrl='/library.svg' name='Library' description='Book store' dark/>
+        <a href="https://library-react-rehan.vercel.app/" target='_blank'>
+          <ProjectPreview imageUrl='/library.svg' name='Library' description='Book store' dark />
+        </a>
       </section>
 
       <section className='grid grid-cols-1 my-4' id='contact'>
