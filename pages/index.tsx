@@ -22,7 +22,7 @@ export default function Home() {
       <section className='grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 mb-4'>
         <div className="h-[30rem] flex flex-col gap-10 lg:gap-16 bg-gradient-to-br from-white via-neutral-300 to-stone-500 rounded-3xl p-10">
           <h1 className='text-3xl lg:text-5xl md:text-5xl text-semibold '>Hello, I'm Rehan, a frontend engineer</h1>
-          <p className='flex-1'>I care a lot about using design for positive impact, and enjoy creating user-centric, delightful, and human experiences.</p>
+          <p className='flex-1 text-sm md:text-[16px] lg:text-[16px]'>As a dedicated Frontend Engineer, I thrive on transforming innovative design concepts into seamless, user-centric digital experiences, with a passion for crafting visually stunning and highly functional interfaces. </p>
 
           <div className='flex flex-col lg:flex-row items-center gap-4 justify-self-end'>
             <button className='py-3 px-12 font-medium w-60 lg:w-auto bg-black text-white rounded-3xl transition hover:opacity-75'> Contact me</button>
