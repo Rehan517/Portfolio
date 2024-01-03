@@ -6,6 +6,7 @@ import SocialButton from '@/Components/SocialButton'
 import Instagram from "../public/instagram.svg"
 import Linkedin from "../public/linkedin.svg"
 import ProjectPreview from '@/Components/ProjectPreview'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,14 +26,17 @@ export default function Home() {
           <p className='flex-1 text-sm md:text-[16px] lg:text-[16px]'>As a dedicated Frontend Engineer, I thrive on transforming innovative design concepts into seamless, user-centric digital experiences, with a passion for crafting visually stunning and highly functional interfaces. </p>
 
           <div className='flex flex-col lg:flex-row items-center gap-4 justify-self-end'>
-            <button className='py-3 px-12 font-medium w-60 lg:w-auto bg-black text-white rounded-3xl transition hover:opacity-75'> Contact me</button>
-            <div className='flex items-center gap-4'>
-              <SocialButton bgColor='instagram'>
+            <a href="mailto:ra3702672@gmail.com? subject=subject text">
+              <button className='py-3 px-4 lg:px-12 md:px-12 font-medium w-60 lg:w-auto bg-black text-white rounded-3xl transition hover:opacity-75'> Contact me</button>
+            </a>            <div className='flex items-center gap-4'>
+              {/* <SocialButton bgColor='instagram'>
                 <Instagram className="h-5 w-5" />
-              </SocialButton>
-              <SocialButton bgColor='linkedin'>
-                <Linkedin className="h-5 w-5" />
-              </SocialButton>
+              </SocialButton> */}
+              <Link href="https://www.linkedin.com/in/rehanali2003" target='_blank'>
+                <SocialButton bgColor='linkedin'>
+                  <Linkedin className="h-5 w-5" />
+                </SocialButton>
+              </Link>
 
             </div>
           </div>
@@ -51,7 +55,7 @@ export default function Home() {
           <ProjectPreview imageUrl='/clothing.png' name='Ecommerce' description='Online clothing brand' dark />
         </a>
         <a href="https://library-react-rehan.vercel.app/" target='_blank'>
-          <ProjectPreview imageUrl='/library.png' name='Library' description='Book store'  />
+          <ProjectPreview imageUrl='/library.png' name='Library' description='Book store' />
         </a>
       </section>
 
@@ -61,15 +65,16 @@ export default function Home() {
           <p className='flex-1'>Feel free to reach out for collaborations or just a friendly hello.</p>
 
           <div className='flex flex-row items-center gap-4 justify-self-end'>
-            <button className='py-3 px-4 lg:px-12 md:px-12 font-medium w-60 lg:w-auto bg-black text-white rounded-3xl transition hover:opacity-75'> Contact me</button>
+            <a href="mailto:ra3702672@gmail.com? subject=subject text">
+              <button className='py-3 px-4 lg:px-12 md:px-12 font-medium w-60 lg:w-auto bg-black text-white rounded-3xl transition hover:opacity-75'> Contact me</button>
+            </a>
             <div className='flex items-center gap-3 lg:gap-4 md:gap-4'>
-              <SocialButton bgColor='instagram'>
-                <Instagram className="h-5 w-5" />
-              </SocialButton>
-              <SocialButton bgColor='linkedin'>
-                <Linkedin className="h-5 w-5" />
-              </SocialButton>
 
+              <Link href="https://www.linkedin.com/in/rehanali2003" target='_blank'>
+                <SocialButton bgColor='linkedin'>
+                  <Linkedin className="h-5 w-5" />
+                </SocialButton>
+              </Link>
             </div>
           </div>
         </div>
