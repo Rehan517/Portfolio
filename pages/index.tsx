@@ -7,6 +7,8 @@ import Instagram from "../public/instagram.svg"
 import Linkedin from "../public/linkedin.svg"
 import ProjectPreview from '@/Components/ProjectPreview'
 import Link from 'next/link'
+import {  ClipboardDocumentIcon } from '@heroicons/react/24/outline'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,6 +37,12 @@ export default function Home() {
               <Link href="https://www.linkedin.com/in/rehanali2003" target='_blank'>
                 <SocialButton bgColor='linkedin'>
                   <Linkedin className="h-5 w-5" />
+                </SocialButton>
+              </Link>
+              <Link href="/Rehan Ali | Resume.pdf">
+                
+                <SocialButton bgColor=''>
+                <ClipboardDocumentIcon className='h-6 w-6'/>
                 </SocialButton>
               </Link>
 
