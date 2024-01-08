@@ -67,11 +67,11 @@ export default function Home() {
       </section>
 
       <section className='grid grid-cols-1 my-4' id='contact'>
-        <div className="h-[20rem] flex flex-col gap-10 bg-gradient-to-br from-white via-neutral-300 to-stone-500 rounded-3xl p-10">
+        <div className="h-[24rem] flex flex-col gap-10 bg-gradient-to-br from-white via-neutral-300 to-stone-500 rounded-3xl p-10">
           <h1 className='text-3xl lg:text-5xl md:text-5xl text-semibold '>Want to work together?</h1>
-          <p className='flex-1'>Feel free to reach out for collaborations or just a friendly hello.</p>
+          <p className='flex'>Feel free to reach out for collaborations or just a friendly hello.</p>
 
-          <div className='flex flex-col lg:flex-row items-center gap-4 justify-self-end'>
+          <div className='flex flex-col lg:flex-row items-center gap-4 justify-self-end pt-0 lg:pt-10'>
             <a href="mailto:ra3702672@gmail.com? subject=subject text">
               <button className='py-3 px-4 lg:px-12 md:px-12 font-medium w-60 lg:w-auto bg-black text-white rounded-3xl transition hover:opacity-75'> Contact me</button>
             </a>
